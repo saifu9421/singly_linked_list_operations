@@ -116,6 +116,9 @@ using namespace std;
                       int val;
                         cout<<"Your Value = ";
                        cin>>val;
+                         if(val == -1){
+                            break;
+                         };
                      insert(head,val);
 
                    }else if(op == 0){
